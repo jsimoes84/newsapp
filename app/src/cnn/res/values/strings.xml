@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CNN</string>
+    <string name="title_home">Home</string>
+    <string name="top_menu_sort_action">Sort news</string>
+    <string name="news_detail_default_title">News Detail</string>
+    <string name="news_source_default_title">News</string>
+    <string name="news_source_bbc_title">BBC News</string>
+    <string name="news_source_cnn_title">CNN</string>
+    <string name="news_source_ap_title">Associated Press</string>
+    <string name="error_fetching_articles">There was an error fetching articles. Please try again later.</string>
+    <string name="loading">Loading News</string>
+</resources>

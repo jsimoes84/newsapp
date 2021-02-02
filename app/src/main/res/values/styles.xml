@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">?android:textColorPrimary</item>
+        <item name="actionMenuTextColor">?android:textColorPrimary</item>
+        <item name="colorControlNormal">?android:textColorPrimary</item>
+    </style>
+
+    <style name="ArticleTitle">
+        <item name="android:textSize">@dimen/news_detail_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArticleDescription">
+        <item name="android:textSize">@dimen/news_detail_description</item>
+    </style>
+
+    <style name="ArticleContent">
+        <item name="android:textSize">@dimen/news_detail_content</item>
+    </style>
+
+    <style name="bottomBar">
+        <item name="backgroundColor">@color/white</item>
+    </style>
+
+    <style name="loadingOverlayText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/loading_text_size</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>
